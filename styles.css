@@ -20,6 +20,19 @@ body {
   background-color: var(--dark-blue);
 }
 
+nav {
+  margin-left: auto;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+height: 100%;
+gap: 1em;
+align-items: center;
+}
+
 #content {
   color: var(--dark-blue);
 }
