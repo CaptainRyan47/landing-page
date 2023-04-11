@@ -1,13 +1,27 @@
 html {
-  --dark-background: #1f2937;
-  --main-text: #f9faf8;
-  --nice-blue: #3882F6;
+  --dark-blue: #1f2937;
+  --off-white: #f9faf8;
+  --light-blue: #3882F6;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
-  color: var(--nice-blue)
+body {
+  color: var(--off-white);
+}
+
+header,
+#hero,
+footer {
+  background-color: var(--dark-blue);
+}
+
+#content {
+  color: var(--dark-blue);
+}
+
+#sign-up > div {
+  background-color: var(--nice-blue);
 }
