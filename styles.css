@@ -12,6 +12,10 @@ body {
   color: var(--off-white);
 }
 
+.flex {
+  display: flex;
+}
+
 header,
 #hero,
 footer {
@@ -24,4 +28,8 @@ footer {
 
 #sign-up > div {
   background-color: var(--light-blue);
+}
+
+#big-shark {
+  height: 400px;
 }
