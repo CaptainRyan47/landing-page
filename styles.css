@@ -12,6 +12,10 @@ body {
   color: var(--off-white);
 }
 
+section, header {
+  padding: 0 100px;
+}
+
 .flex {
   display: flex;
 }
