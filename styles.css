@@ -1,0 +1,13 @@
+html {
+  --dark-background: #1f2937;
+  --main-text: #f9faf8;
+  --nice-blue: #3882F6;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--nice-blue)
+}
