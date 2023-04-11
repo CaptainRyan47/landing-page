@@ -16,9 +16,7 @@ body {
   display: flex;
 }
 
-header,
-#hero,
-footer {
+.dark-background {
   background-color: var(--dark-blue);
 }
 
