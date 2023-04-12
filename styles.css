@@ -40,10 +40,12 @@ align-items: center;
 }
 
 #hero {
+  justify-content: space-between;
 }
 
 #content {
   color: var(--dark-blue);
+  text-align: center;
 }
 
 #sign-up > div {
@@ -51,7 +53,28 @@ align-items: center;
 }
 
 #big-shark {
-  max-height: 300px;
+  max-height: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+}
+
+.card > img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid var(--light-blue);
+  border-radius: 20px;
 }
 
 footer {
