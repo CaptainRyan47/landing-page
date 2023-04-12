@@ -2,6 +2,7 @@ html {
   --dark-blue: #1f2937;
   --off-white: #f9faf8;
   --light-blue: #3882F6;
+  --light-grey: #e5e7eb;
 }
 
 * {
@@ -75,6 +76,14 @@ align-items: center;
   object-fit: cover;
   border: 5px solid var(--light-blue);
   border-radius: 20px;
+}
+
+.quote-box {
+  background-color: var(--light-grey);
+  color: var(--dark-blue);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
