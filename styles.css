@@ -34,6 +34,14 @@ header {
   background-color: var(--light-blue);
 }
 
+button {
+  border-radius: 10px;
+  border: none;
+  color: var(--off-white);
+  padding: .5em 2em;
+  font-weight: bold;
+}
+
 nav {
   margin-left: auto;
 }
@@ -104,6 +112,7 @@ ul {
   margin: 8em;
   padding: 4em 8em;
   border-radius: 10px;
+  justify-content: space-between;
 }
 
 .sign-up-box h2,
@@ -111,7 +120,13 @@ ul {
   margin: 0;
 }
 
-
+#sign-up button {
+  border: 3px var(--off-white) solid;
+  white-space: nowrap;
+  font-size: 16px;
+  height: 3em;
+  align-self: center;
+}
 
 footer {
   text-align: center;
