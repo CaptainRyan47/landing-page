@@ -30,6 +30,10 @@ header {
   background-color: var(--dark-blue);
 }
 
+.light-background{
+  background-color: var(--light-blue);
+}
+
 nav {
   margin-left: auto;
 }
@@ -49,10 +53,6 @@ ul {
 #content {
   color: var(--dark-blue);
   text-align: center;
-}
-
-#sign-up>div {
-  background-color: var(--light-blue);
 }
 
 #big-shark {
@@ -93,6 +93,25 @@ ul {
   font-size: 36px;
   margin: 0;
 }
+
+#sign-up {
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  width: 100%;
+  margin: 8em;
+  padding: 4em 8em;
+  border-radius: 10px;
+}
+
+.sign-up-box h2,
+.sign-up-box p {
+  margin: 0;
+}
+
+
 
 footer {
   text-align: center;
